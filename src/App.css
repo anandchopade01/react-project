@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family:helvetica;
+}
+
+.App {
+  background-color: rgb(251, 248, 248);
+  background-image: url();
+}
+
+.react-img {
+  height: 100%;
+  animation: spin 6s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.div1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  padding-bottom: 80px;
+  background-color: black;
+  color: white;
+}
+
+.div11 {
+  margin: 0px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 35px;
+  margin: 20px 0;
+}
+
+p {
+  font-size: 20px;
+  margin: 30px 0;
+}
+
+.button {
+  font-size: 25px;
+  padding: 10px;
+  border: 0px;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
+.button:hover{
+  font-size: 26px;
+  padding: 12px;
+}
+
+@media screen and (max-width:700px){
+  .react-img{
+    height: 150px;
+  }
+
+  .div1{
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 10px;
+    margin: 0;
+  }
+
+  .div11{
+    padding: 20px;
+  }
+
+  h2{
+    font-size: 25px;
+  }
+
+  h3{
+    font-size: 20px;
+  }
+
+  p{
+    font-size: 17px;
+  }
+
+  .button{
+    font-size: 20px;
+  }
+
+  .button:hover{
+    font-size: 21px;
+  }
+}

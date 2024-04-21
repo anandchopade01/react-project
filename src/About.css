@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.about{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.ah1{
+    margin-top: 50px;
+}
+
+.card{
+    width: fit-content;
+    margin: 100px auto;
+    justify-content: center; 
+    align-items: center;
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+    border-radius:10px;
+    padding: 30px;
+}
+
+.img{
+    height:50px;
+    width:50px;
+}
+
+.cp{
+    margin: 10px;
+}
+
+.cpp{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.container{
+    padding-bottom: 90px;
+}
+
+@media screen and (max-width:500px) {
+    .ah1{
+        padding: 30px;
+        margin: 0;
+    }
+
+    .card{
+        margin: 40px auto;
+        padding: 10px;
+    }
+
+    .cpp{
+        font-size: 20px;
+    }
+}
